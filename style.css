@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    color: #1F2937;
 }
 
 .first-box {
@@ -13,6 +14,7 @@ body {
     background-color: #E0144C;
     flex-shrink: 0;
     height: 300px;
+    color: white;
 }
 
 .second-box {
@@ -21,7 +23,16 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 350px;
+    height: auto;
+}
+
+.third-box {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
 .header-top {
@@ -56,9 +67,10 @@ body {
 
 .img-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 24px;
+    margin-bottom: 24px;
 }
 
 .img-box {
@@ -67,6 +79,31 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+.img-text {
+    color: #1F2937;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 img {
@@ -112,6 +149,9 @@ p {
 
 button {
     border-radius: 15px;
-    width: 80px;
-    height: 20px;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    border-width: 0px;
+    color: #1F2937;
 }
