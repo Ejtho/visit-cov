@@ -35,6 +35,15 @@ body {
     height: auto;
 }
 
+.fourth-box {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: auto;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -104,6 +113,14 @@ body {
     margin-top: 16px;
     font-weight: 700;
     font-size: 20px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E0144C;
+    border-radius: 12px;
 }
 
 img {
