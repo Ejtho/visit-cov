@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0px;
     color: #1F2937;
+    min-height: 100vh;
 }
 
 .first-box {
@@ -44,12 +45,23 @@ body {
     height: auto;
 }
 
+.fifth-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0144C;
+    height: 70px;
+    margin-top: auto;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     justify-self: flex-start;
     flex-shrink: 0;
+    margin-left: 48px;
+    margin-right: 24px;
 }
 
 .header-mid {
@@ -58,6 +70,7 @@ body {
     align-items: flex-start;
     margin-top: 60px;
     flex-shrink: 0;
+    gap: 48px;
 }
 
 .header-mid-left {
@@ -113,6 +126,7 @@ body {
     margin-top: 16px;
     font-weight: 700;
     font-size: 20px;
+    color: #1F2937
 }
 
 .signup-container {
@@ -121,6 +135,23 @@ body {
     align-items: center;
     background: #E0144C;
     border-radius: 12px;
+    width: 700px;
+    height: 100px;
+    margin:24px;
+    padding: 24px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#sign-up {
+    font-size: 24px;
+    margin: 0px;
+    color: #FFFFFF;
 }
 
 img {
@@ -162,6 +193,7 @@ h3 {
 
 p {
     margin: 0px;
+    color: #FFFFFF;
 }
 
 button {
